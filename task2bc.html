@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="task9images/img/architect.png" type="image/gif" sizes="16x16">
+    <title>Builderz</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("x_nav").style.width = "100%";
+                document.getElementById("x_nav").style.transition = ".5s";
+            }
+
+            else {
+                document.getElementById("x_nav").style.width = "80%";
+                document.getElementById("x_nav").style.transition = ".5s";
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="ffff"></div>
+    <!-- ------------------------------------------home------------------------------------- -->
+    <section class=" bg-warning fw-bolder" id="home">
+        <div class="container d-flex justify-content-between align-items-center px-4 flex-row ">
+            <div class="display-3 fw-bold">Builderz</div>
+            <div class="d-flex myInfo">
+                <div class="d-flex align-items-center justify-content-center mx-3">
+                    <div><i class="far fa-calendar-alt fa-2x mx-3"></i></div>
+                    <div>Openning Hour <br>
+                        mon - fri, 8:00 - 9:00
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center mx-3">
+                    <div> <i class="fas fa-phone-alt fa-2x mx-3"></i></div>
+                    <div>Call Us <br>
+                        +0111 25 23 211
+                    </div>
+                </div class="d-flex">
+                <div class="d-flex align-items-center justify-content-center mx-3">
+                    <div><i class="far fa-envelope fa-2x mx-3"></i></div>
+                    <div>
+                        Email Us <br>
+                        info@expert.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------       -nav     ---------------------------------- -->
+    <section class="sticky-top bg-warning">
+        <nav class="navbar navbar-expand-lg navbar-light m-auto bg-dark p-3 text-center" style="width: 80%;" id="x_nav">
+            <div class=" container-fluid">
+                <a class="navbar-brand  text-white" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link  text-white" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link  text-white" href="#ABOUT">ABOUT</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link  text-white" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link  text-white" href="#TEAM">TEAM</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link  text-white" href="#PRODUCT">PRODUCT</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link  text-white" href="#footer">PAGES</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link  text-white" href="#footer">CONTACT</a>
+                        </li>
+
+                    </ul>
+                    <div>
+                        <button type="button" class="btn btn-outline-light ">GET A QUOTE</button>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- ------------------------------------------------ carousel----------------------------------------- -->
+    <section class="">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div>
+                        <img src="task9images/img/carousel-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="animate__bounceInDown animate__animated">We Are Profissional
+                        </h3>
+                        <p class="display-3 fw-bold animate__bounceInLeft animate__animated">For Your Dream Project
+                        </p>
+                        <button type="button"
+                            class="btn btn-outline-light px-5 py-3 fw-bold mt-3 animate__animated animate__bounceInUp">GET
+                            A QUOTE</button>
+
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="task9images/img/carousel-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="animate__bounceInDown animate__animated">We Are Profissional
+                        </h3>
+                        <p class="display-3 fw-bold animate__bounceInLeft animate__animated">For Your Dream Project
+                        </p>
+                        <button type="button"
+                            class="btn btn-outline-light px-5 py-3 fw-bold mt-3 animate__animated animate__bounceInUp">GET
+                            A QUOTE</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="task9images/img/carousel-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="animate__bounceInDown animate__animated">We Are Profissional
+                        </h3>
+                        <p class="display-3 fw-bold animate__bounceInLeft animate__animated">For Your Dream Project
+                        </p>
+                        <button type="button"
+                            class="btn btn-outline-light px-5 py-3 fw-bold mt-3 animate__animated animate__bounceInUp">GET
+                            A QUOTE</button>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- ------------------------------------------cards------------------------------------------ -->
+    <section>
+
+        <!-- <div class="card-group">
+            <div class="">
+                <div class="row">
+
+                    <div class="card bg-secondary col-md-4 col-sm-12">
+                        <div class="card-body  text-warning">
+                            Expert Worker
+
+                            <p class="card-text">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+
+                    </div>
+                    <div class="card bg-warning col-md-4 col-sm-12">
+                        <div class="card-body  text-secondary">
+                            Quality Work
+                            <p class="card-text">
+
+
+                                This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card bg-secondary col-md-4 col-sm-12">
+                        <div class="card-body  text-warning">
+                            24/7 Support
+
+                            <p class="card-text">
+
+                                This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container-fluid">
+            <div class="row">
+                <div
+                    class="col-md-12 col-lg-4 bg-dark text-warning d-flex align-items-center justify-content-center p-5">
+                    <div>
+                        <i class="fas fa-2x  p-3 fa-users"></i>
+
+                    </div>
+                    <div>
+                        <p class="h3">Expert Worker
+                        </p>
+                        <div class="fw-bold  ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem exercitationem
+                            necessitatibus, quod saepe quae voluptate placeat ea aliquid iure earum recusandae sit
+                            doloremque cupiditate vero illum totam aliquam nihil porro?
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 bg-warning d-flex align-items-center justify-content-center p-5">
+                    <div>
+                        <i class="far fa-2x p-3 fa-building"></i>
+                    </div>
+                    <div>
+                        <p class="h3">Quality Work
+                        </p>
+                        <div class="fw-bold  ">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit laudantium praesentium a
+                            facere odit tempora ipsum expedita, consequuntur natus voluptas quas, porro exercitationem
+                            ullam voluptatum unde sint incidunt illo distinctio?
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-md-12 col-lg-4 bg-dark text-warning d-flex align-items-center justify-content-center p-5">
+                    <div>
+                        <i class="fas fa-2x p-3 fa-phone-alt"></i>
+
+
+                    </div>
+                    <div>
+                        <p class="h3">24/7 Support
+                        </p>
+                        <div class="fw-bold  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, beatae
+                            laudantium harum
+                            adipisci quidem, cumque placeat eligendi quod atque nisi voluptas accusantium quis
+                            reiciendis temporibus, qui reprehenderit a in totam!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------------- ABOUT ------------------------------------------------------- -->
+    <section>
+        <div class="container my-5" id="ABOUT">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="task9images/img/about.jpg" alt="" width="100%">
+                </div>
+                <div class="col-lg-6 col-sm-12 d-flex  flex-column justify-content-center my-5">
+                    <p>Welcome To Builderz
+                    </p>
+                    <h1 class="fw-bold">25 years experience
+
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis beatae facilis quos inventore
+                        nulla repellendus voluptatibus repellat mollitia saepe quo explicabo dignissimos ratione maxime
+                        excepturi earum, in laborum ducimus hic porro officiis fugit itaque quae. Totam impedit quasi
+                        minus! Dicta, itaque asperiores, quasi iusto alias nobis molestias obcaecati iste voluptate
+                        beatae laboriosam ea! Sint distinctio a vero libero qui repellat explicabo modi reprehenderit
+                        voluptas omnis iusto, nostrum dolor deleniti numquam ea voluptate tenetur, consequuntur
+                        corrupti. Natus perferendis id repellendus quas.
+
+                    </p>
+                    <div> <button type="button" class="btn btn-warning btn-lg hoverSec2"><small>Learn
+                                More</small></button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------- cards ----------------------------------------- -->
+    <!-- 
+    
+     -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div
+                    class="col-lg-6 col-md-12 bg-dark text-warning d-flex align-items-center justify-content-center py-5">
+
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="col-md-6 col-sm-12 my-4">
+                                <div class="d-flex align-items-center justify-content-center mx-3">
+                                    <div><i class="far fa-calendar-alt fa-2x mx-3"></i></div>
+                                    <div>Openning Hour <br>
+                                        mon - fri, 8:00 - 9:00
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 my-4">
+                                <div class="d-flex align-items-center justify-content-center mx-3">
+                                    <div><i class="far fa-calendar-alt fa-2x mx-3"></i></div>
+                                    <div>Openning Hour <br>
+                                        mon - fri, 8:00 - 9:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="col-lg-6 col-md-12 bg-dark text-warning d-flex align-items-center justify-content-center py-5">
+
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <div class="col-md-6 col-sm-12 my-4">
+                                <div class="d-flex align-items-center justify-content-center mx-3">
+                                    <div><i class="far fa-calendar-alt fa-2x mx-3"></i></div>
+                                    <div>Openning Hour <br>
+                                        mon - fri, 8:00 - 9:00
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 my-4">
+                                <div class="d-flex align-items-center justify-content-center mx-3">
+                                    <div><i class="far fa-calendar-alt fa-2x mx-3"></i></div>
+                                    <div>Openning Hour <br>
+                                        mon - fri, 8:00 - 9:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------- services -------------------------------------- -->
+    <section class="my-5" id="services">
+        <div class="text-center">
+            <p class="text-warning fw-bold">Our Services
+            </p>
+            <p class="display-4 fw-bold mb-5">We Provide Services
+            </p>
+        </div>
+        <div class="container">
+            <div class=" flexoverlay text-center d-flex justify-content-center">
+                <div class="FirstOverlay m-3 ">
+                    <div>
+                        <div>
+                            <img src="task9images/img/portfolio-1.jpg" alt="" width="100%" height="300px">
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <div
+                                class="p-1 w-100 bd-highlight bg-dark text-warning d-flex  justify-content-center align-items-center fw-bold fs-4">
+                                Building Construction</div>
+                            <div class="p-1 flex-shrink-1 bd-highlight bg-warning"><i class="fas fa-plus fa-2x p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam pariatur esse
+                        est, deserunt molestiae
+                    </div>
+                </div>
+                <div class="FirstOverlay m-3">
+                    <div>
+                        <div>
+                            <img src="task9images/img/portfolio-1.jpg" alt="" width="100%" height="300px">
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <div
+                                class="p-1 w-100 bd-highlight bg-dark text-warning justify-content-center d-flex align-items-center fw-bold fs-4">
+                                House Ronovation</div>
+                            <div class="p-1 flex-shrink-1 bd-highlight bg-warning"><i class="fas fa-plus fa-2x p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam pariatur esse
+                        est, deserunt molestiae
+                    </div>
+                </div>
+
+                <div class="FirstOverlay m-3">
+                    <div>
+                        <div>
+                            <img src="task9images/img/portfolio-1.jpg" alt="" width="100%" height="300px">
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <div
+                                class="p-1 w-100 bd-highlight bg-dark text-warning justify-content-center d-flex align-items-center fw-bold fs-4">
+                                Architecture Design</div>
+                            <div class="p-1 flex-shrink-1 bd-highlight bg-warning"><i class="fas fa-plus fa-2x p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam pariatur esse
+                        est, deserunt molestiae
+                    </div>
+                </div>
+            </div>
+            <div class=" flexoverlay text-center d-flex justify-content-center">
+                <div class="FirstOverlay m-3 ">
+                    <div>
+                        <div>
+                            <img src="task9images/img/portfolio-1.jpg" alt="" width="100%" height="300px">
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <div
+                                class="p-1 w-100 bd-highlight bg-dark text-warning justify-content-center d-flex align-items-center fw-bold fs-4">
+                                Inerior Design</div>
+                            <div class="p-1 flex-shrink-1 bd-highlight bg-warning"><i class="fas fa-plus fa-2x p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam pariatur esse
+                        est, deserunt molestiae
+                    </div>
+                </div>
+                <div class="FirstOverlay m-3">
+                    <div>
+                        <div>
+                            <img src="task9images/img/portfolio-1.jpg" alt="" width="100%" height="300px">
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <div
+                                class="p-1 w-100 bd-highlight bg-dark text-warning justify-content-center d-flex align-items-center fw-bold fs-4">
+                                Fixing & swpport</div>
+                            <div class="p-1 flex-shrink-1 bd-highlight bg-warning"><i class="fas fa-plus fa-2x p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam pariatur esse
+                        est, deserunt molestiae
+                    </div>
+                </div>
+
+                <div class="FirstOverlay m-3">
+                    <div>
+                        <div>
+                            <img src="task9images/img/portfolio-1.jpg" alt="" width="100%" height="300px">
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <div
+                                class="p-1 w-100 bd-highlight bg-dark text-warning justify-content-center d-flex align-items-center fw-bold fs-4">
+                                Painting</div>
+                            <div class="p-1 flex-shrink-1 bd-highlight bg-warning"><i class="fas fa-plus fa-2x p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overlay">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam pariatur esse
+                        est, deserunt molestiae
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------------- spinner ------------------------------------------- -->
+    <section class=" spinner">
+        <!-- <div>
+d-flex justify-content-center align-items-center
+        </div> -->
+        <div class="InnerSp d-flex justify-content-center align-items-center
+        ">
+            <div class="spinnerIcon"> <i class="fas fa-play d-flex justify-content-center align-items-center">
+                    <div class="spinner-grow text-warning" role="status">
+                        <!-- <span class="visually-hidden"><i class="fas fa-play text-warning"></i></span> -->
+
+                    </div>
+                </i>
+            </div>
+            <!-- <div class="spinner-grow text-warning" role="status">
+                <span class="sr-only">Loading...</span>
+            </div> -->
+
+        </div>
+
+
+    </section>
+    <!-- ------------------------------- >Our Team-------------------------------------->
+    <section class="my-5" id="TEAM">
+        <div class="text-center">
+            <p class="text-warning fw-bold">Our Team
+
+            </p>
+            <p class="display-4 fw-bold mb-5">Meet Our Engineers
+            </p>
+        </div>
+        <div class="animateParentflex d-flex justify-content-center align-items-center">
+
+            <div class=" animateParent">
+                <div class="card boxShadowNone flex-grow-1">
+                    <img src="task9images/img/team-1.jpg" class="card-img-top" alt="..." width="100%">
+                    <div class="card-body bg-dark text-center">
+                        <p class="card-text ">
+                        <p class="fw-bolder text-warning h2"> Adam Phillips</p>
+                        <p class="fw-bolder text-white h4"> Ceo & Founder</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="animateParent2">
+                    <div class="animateChild animate1 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-twitter"></i></div>
+                    <div class="animateChild animate2 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-facebook-f"></i></div>
+                    <div class="animateChild animate3 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-linkedin-in"></i></div>
+                    <div class="animateChild animate4 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-instagram"></i></div>
+
+                </div>
+            </div>
+            <div class=" animateParent">
+                <div class="card boxShadowNone flex-grow-1">
+                    <img src="task9images/img/team-2.jpg" class="card-img-top" alt="..." width="100%">
+                    <div class="card-body bg-dark text-center">
+                        <p class="card-text ">
+                        <p class="fw-bolder text-warning h2"> Dylan Adams</p>
+                        <p class="fw-bolder text-white h4"> Civil Engineer</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="animateParent2">
+                    <div class="animateChild animate1 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-twitter"></i></div>
+                    <div class="animateChild animate2 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-facebook-f"></i></div>
+                    <div class="animateChild animate3 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-linkedin-in"></i></div>
+                    <div class="animateChild animate4 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-instagram"></i></div>
+
+                </div>
+            </div>
+            <div class=" animateParent">
+                <div class="card boxShadowNone flex-grow-1">
+                    <img src="task9images/img/team-3.jpg" class="card-img-top" alt="..." width="100%">
+                    <div class="card-body bg-dark text-center">
+                        <p class="card-text ">
+                        <p class="fw-bolder text-warning h2">Jhon Doe</p>
+                        <p class="fw-bolder text-white h4"> Interior Design</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="animateParent2">
+                    <div class="animateChild animate1 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-twitter"></i></div>
+                    <div class="animateChild animate2 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-facebook-f"></i></div>
+                    <div class="animateChild animate3 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-linkedin-in"></i></div>
+                    <div class="animateChild animate4 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-instagram"></i></div>
+
+                </div>
+            </div>
+            <div class=" animateParent">
+                <div class="card boxShadowNone flex-grow-1">
+                    <img src="task9images/img/team-4.jpg" class="card-img-top" alt="..." width="100%">
+                    <div class="card-body bg-dark text-center">
+                        <p class="card-text ">
+                        <p class="fw-bolder text-warning h2">Interior Design</p>
+                        <p class="fw-bolder text-white h4"> Painter</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="animateParent2">
+                    <div class="animateChild animate1 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-twitter"></i></div>
+                    <div class="animateChild animate2 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-facebook-f"></i></div>
+                    <div class="animateChild animate3 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-linkedin-in"></i></div>
+                    <div class="animateChild animate4 d-flex justify-content-center align-items-center "><i
+                            class="fab fa-instagram"></i></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------------  Aske Question --------------------------------------------- -->
+    <section>
+        <div class="text-center">
+            <p class="text-warning fw-bold">Frequently asked Question
+
+
+            </p>
+            <p class="display-4 fw-bold mb-5">You May Ask
+            </p>
+        </div>
+        <div class="d-flex justify-content-between my-5">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12  pe-5 ">
+                        <div>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            second item's accordion body. Let's imagine this being filled with some
+                                            actual
+                                            content.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of
+                                            content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                            aria-expanded="false" aria-controls="flush-collapseFour">
+                                            Accordion Item #4
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of
+                                            content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                            aria-expanded="false" aria-controls="flush-collapseFive">
+                                            Accordion Item #5
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of
+                                            content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingSix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+                                            aria-expanded="false" aria-controls="flush-collapseSix">
+                                            Accordion Item #6
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of
+                                            content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12  ps-5 accordion2 border-warning border-start">
+                        <div>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingSeven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
+                                            aria-expanded="false" aria-controls="flush-collapseSeven">
+                                            Accordion Item #7
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingEight">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                                            aria-expanded="false" aria-controls="flush-collapseEight">
+                                            Accordion Item #8
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingNine">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
+                                            aria-expanded="false" aria-controls="flush-collapseNine">
+                                            Accordion Item #9
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseNine" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingTen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
+                                            aria-expanded="false" aria-controls="flush-collapseTen">
+                                            Accordion Item #10
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTen" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingEleven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven"
+                                            aria-expanded="false" aria-controls="flush-collapseEleven">
+                                            Accordion Item #11
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseEleven" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            second item's accordion body. Let's imagine this being filled with some
+                                            actual
+                                            content.</div>
+                                    </div>
+
+                                </div>
+                                <div class="accordion-item border">
+                                    <h2 class="accordion-header" id="flush-headingTwelve">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve"
+                                            aria-expanded="false" aria-controls="flush-collapseTwelve">
+                                            Accordion Item #12
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwelve" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of
+                                            content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------ customers -------------------------------------- -->
+    <section class="customers text-center my-5 ">
+        <div class="customersoverlay p-5">
+            <div class="w-50 m-auto customersWdith">
+                <p class="d-flex justify-content-center align-items-center">
+                    <img src="task9images/img/testimonial-1.jpg " class="rounded-circle customersImg1" alt="">
+                    <img src="task9images/img/testimonial-2.jpg " class="rounded-circle customersImg2" alt="">
+                    <img src="task9images/img/testimonial-3.jpg " class="rounded-circle customersImg3" alt="">
+                </p>
+                <p>
+                    <img src="task9images/img/quote.png" alt="">
+                </p>
+                <p class="text-warning fw-bolder h3">
+                    Costumer Name
+                </p>
+                <p class="text-white fs-6">
+                    profession
+                </p>
+                <p class="text-white customersp fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Possimus beatae
+                    ducimus, dicta labore provident perferendis quaerat neque ipsa voluptatem .</p>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------------------- PRODUCT----------------------------------------------------- -->
+    <section class="my-5" id="PRODUCT">
+        <div class="text-center">
+            <p class="text-warning fw-bold">Latest Log
+            </p>
+            <p class="display-4 fw-bold mb-5">Latest From Our Blog
+            </p>
+        </div>
+        <div class="container">
+
+            <div class=" flexoverlay text-center d-flex justify-content-center">
+                <div class="FirstOverlay m-3 ">
+                    <div>
+                        <div>
+                            <img src="task9images/img/portfolio-1.jpg" alt="" width="100%" height="300px">
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <div
+                                class="p-1 w-100 bd-highlight bg-dark text-warning justify-content-center d-flex align-items-center fw-bold fs-4">
+                                Inerior Design</div>
+                            <div class="p-1 flex-shrink-1 bd-highlight bg-warning"><i class="fas fa-plus fa-2x p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-secondary text-center p-4">
+                        <p>By Admin In Construction</p>
+                        <div class="w-25 border-bottom border-warning border-2 m-auto"></div>
+                        <p class="mt-3 fw-bold">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Velit Quod Ea Inventore Quas Soluta
+                            Atque?
+
+
+                        </p>
+                    </div>
+                </div>
+                <div class="FirstOverlay m-3">
+                    <div>
+                        <div>
+                            <img src="task9images/img/portfolio-1.jpg" alt="" width="100%" height="300px">
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <div
+                                class="p-1 w-100 bd-highlight bg-dark text-warning justify-content-center d-flex align-items-center fw-bold fs-4">
+                                Fixing & swpport</div>
+                            <div class="p-1 flex-shrink-1 bd-highlight bg-warning"><i class="fas fa-plus fa-2x p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-secondary text-center p-4">
+                        <p>By Admin In Construction</p>
+                        <div class="w-25 border-bottom border-warning border-2 m-auto"></div>
+                        <p class="mt-3 fw-bold">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Velit Quod Ea Inventore Quas Soluta
+                            Atque?
+
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="FirstOverlay m-3">
+                    <div>
+                        <div>
+                            <img src="task9images/img/portfolio-1.jpg" alt="" width="100%" height="300px">
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <div
+                                class="p-1 w-100 bd-highlight bg-dark text-warning justify-content-center d-flex align-items-center fw-bold fs-4">
+                                Painting</div>
+                            <div class="p-1 flex-shrink-1 bd-highlight bg-warning"><i class="fas fa-plus fa-2x p-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-secondary text-center p-4">
+                        <p>By Admin In Construction</p>
+                        <div class="w-25 border-bottom border-warning border-2 m-auto"></div>
+                        <p class="mt-3 fw-bold">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Velit Quod Ea Inventore Quas Soluta
+                            Atque?
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ----------------------------- footer ------------------------------- -->
+    <section class="footer px-5 bg-dark text-white" id="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-3 col-md-12 mt-3 ">
+                    <div class="d-flex flex-column justify-content-center align-items-start">
+                        <p class="text-warning h5">
+                            Office Contact
+                        </p>
+                        <div class="w-25 border-bottom border-warning border-3"></div>
+                    </div>
+                    <div class="my-4">
+                        <div class="d-flex align-items-center my-3">
+                            <div> <i class="fas fa-map-marker-alt me-2"></i></div>
+                            <div> 123,street New yourk, USA
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center my-3">
+                            <div> <i class="fas fa-phone-alt me-2"></i></div>
+                            <div> +02 1066342015
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center my-3">
+                            <div> <i class="fas fa-envelope me-2"></i></div>
+                            <div> info@example.com
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="FooterHover btn btn-outline-light rounded-circle"><i
+                                class="fab fa-twitter"></i></button>
+                        <button type="button" class="FooterHover btn btn-outline-light rounded-circle"><i
+                                class="fab fa-facebook-f"></i></button>
+                        <button type="button" class="FooterHover btn btn-outline-light rounded-circle"><i
+                                class="fab fa-youtube"></i></button>
+                        <button type="button" class="FooterHover btn btn-outline-light rounded-circle"><i
+                                class="fab fa-instagram"></i></button>
+                        <button type="button" class="FooterHover btn btn-outline-light rounded-circle"><i
+                                class="fab fa-linkedin-in"></i></button>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-12 mt-3">
+                    <div class="d-flex flex-column justify-content-center align-items-start">
+                        <p class="text-warning h5">
+                            Service Areas
+                        </p>
+                        <div class="w-25 border-bottom border-warning border-3"></div>
+                    </div>
+                    <div class="my-4">
+                        <p><i class="fas fa-chevron-right"></i> <a href="">Building Construction</a></p>
+                        <p><i class="fas fa-chevron-right"></i> <a href="">House Renovation</a> </p>
+                        <p><i class="fas fa-chevron-right"></i> <a href="">Archtecture </a></p>
+                        <p><i class="fas fa-chevron-right"></i> <a href="">Interior Design</a></p>
+                        <p><i class="fas fa-chevron-right"></i> <a href="">Painting </a></p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-12 mt-3">
+                    <div class="d-flex flex-column justify-content-center align-items-start">
+                        <p class="text-warning h5">
+                            Useful Pages
+                        </p>
+                        <div class="w-25 border-bottom border-warning border-3"></div>
+                    </div>
+                    <div class="my-4">
+                        <p><i class="fas fa-chevron-right"></i><a href=""> About Us </a></p>
+                        <p><i class="fas fa-chevron-right"></i><a href=""> Contact Us </a></p>
+                        <p><i class="fas fa-chevron-right"></i><a href=""> Our Team </a></p>
+                        <p><i class="fas fa-chevron-right"></i><a href=""> Projects </a></p>
+                        <p><i class="fas fa-chevron-right"></i><a href=""> Testimonial</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 mt-3">
+                    <div class="d-flex flex-column justify-content-center align-items-start">
+                        <p class="text-warning h5">
+                            News Letter
+                        </p>
+                        <div class="w-25 border-bottom border-warning border-3"></div>
+                    </div>
+                    <div class="my-4">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor atque unde, quia
+                            necessitatibus ut asperiores ea obcaecati, facilis earum ipsum nobis .</p>
+                        <div class="bg-white p-1 d-flex rounded justify-content-between footerForm">
+                            <div><input class="form-control" type="text" placeholder="Default input"
+                                    aria-label="default input example">
+                            </div>
+                            <div> <button type="button" class="btn btn-dark text-warning FooterBtnHover">submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+            <div
+                class="d-flex justify-content-center align-items-center footerSittings border-top border-bottom border-1">
+                <div class="my-3 pe-4 border-end"><a href="">Terms Of Use</a></div>
+                <div class="my-3 ps-4 pe-4 border-end"><a href="">Privact Policy</a></div>
+                <div class="my-3 ps-4 pe-4 border-end"><a href="">Cookies</a></div>
+                <div class="my-3 ps-4 pe-4 border-end"><a href="">Help </a></div>
+                <div class="my-3 ps-4"><a href="">FQAs</a></div>
+            </div>
+            <div class="d-flex py-4 CopyWright justify-content-between align-items-center h5">
+                <div> &copy; 2022 <span class="text-warning">Builderz</span> , All Rights Reserved.</div>
+                <div> Made By <span class="text-warning">&hearts;</span> By <span class="text-warning">Nael Mahdy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="up"><a href="#home"><i class="fas fa-arrow-up"></i></a></div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
